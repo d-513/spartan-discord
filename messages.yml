@@ -1,0 +1,7 @@
+version: 1.0.0 # do not touch
+version-message: "Running spartan-discord {0}"
+detection-embed:
+  color: "#32a844"
+  author:
+    name: "Spartan"
+    icon_url: "https://i.imgur.com/NkSRV5c.png"

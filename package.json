@@ -1,0 +1,38 @@
+{
+  "name": "spartan-discord",
+  "version": "1.0.0",
+  "description": "A discord bot showing spartan anti cheat's logs",
+  "main": "src/esm.js",
+  "module": "src/main.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "eslint ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dada513/spartan-discord.git"
+  },
+  "keywords": [
+    "spartan",
+    "discord",
+    "bot"
+  ],
+  "author": "dada513",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dada513/spartan-discord/issues"
+  },
+  "homepage": "https://github.com/dada513/spartan-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "esm": "^3.2.25",
+    "fs-extra": "^9.0.0",
+    "like-mysql": "^1.0.13",
+    "yaml": "^1.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  }
+}
